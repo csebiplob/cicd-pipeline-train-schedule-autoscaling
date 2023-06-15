@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: linuxacademyconten/train-schedule:autoscaling
+        image: cse.biplob/train-schedule:autoscaling
         ports:
         - containerPort: 8080
         livenessProbe:
